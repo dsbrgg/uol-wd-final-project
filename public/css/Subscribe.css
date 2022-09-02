@@ -1,0 +1,77 @@
+#subscribe-message-ok {
+    color: #9b9ece;
+    font-size: 1.2em;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-style: italic;
+}
+
+#subscribe-message-error {
+    color: red;
+    font-size: 1.2em;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-style: italic;
+}
+
+#subscribe-button {
+    width: 15%;
+    padding: 0.6em;
+    margin: 0.5em;
+    border: 0em;
+    border-radius: 0.3em;
+    color: #acadbc;
+    background-color: #473bf0;
+    box-shadow: 0.2em 0.2em 0.2em 0.2em rgba(0, 0, 0, 0.4);
+    font-size: 1.3em;
+    font-family: 'Roboto', sans-serif;
+    cursor: pointer;
+}
+
+.subscribe-input {
+    width: 30%;
+    padding: 0.3em;
+    margin: 0.5em;
+    border: 0em;
+    border-radius: 0.3em;
+    box-shadow: 0.2em 0.2em 0em 0em rgba(0, 0, 0, 0.4);
+    font-size: 1.3em;
+}
+
+@media only screen and (max-width: 600px) {
+    #subscribe-message-ok {
+        font-size: 1em;
+    }
+
+    #subscribe-message-error {
+        font-size: 1em;
+    }
+
+    #subscribe-button {
+        width: 60%;
+        font-size: 0.7em;
+    }
+
+    .subscribe-input {
+        width: 60%;
+        font-size: 0.7em;
+    }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 1200px) {
+    #subscribe-message-ok {
+        font-size: 1em;
+    }
+
+    #subscribe-message-error {
+        font-size: 1em;
+    }
+
+    #subscribe-button {
+        width: 40%;
+    }
+
+    .subscribe-input {
+        width: 50%;
+    }
+}

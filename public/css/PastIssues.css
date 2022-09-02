@@ -1,0 +1,26 @@
+.past-issues-list-item {
+    margin-top: 0.5em;
+}
+
+.past-issues-list-item-link {
+    color: #acadbc;
+    font-family: 'Silkscreen', cursive;
+    text-decoration: none;
+    font-size: 1.5em;
+}
+
+.past-issues-list-item-link:hover {
+    color: white;
+}
+
+@media only screen and (max-width: 600px) {
+    .past-issues-list-item-link {
+        font-size: 1.2em;
+    }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 1200px) {
+    .past-issues-list-item-link {
+        font-size: 1.2em;
+    }
+}

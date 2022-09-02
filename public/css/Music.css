@@ -1,0 +1,27 @@
+#music-section {
+    display: flex;
+    gap: 3em;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 3em 3em 3em 3em;
+    width: 100%;
+}
+
+#music-section article iframe {
+    width: 30em;
+    height: 30em;
+}
+
+@media only screen and (max-width: 600px) {
+    #music-section article iframe {
+        width: 10em;
+        height: 10em;
+    }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 1200px) {
+    #music-section article iframe {
+        width: 20em;
+        height: 20em;
+    }
+}

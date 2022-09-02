@@ -1,0 +1,31 @@
+#about-container {
+    width: 40%;
+}
+
+#about-container p {
+    color: #9b9ece;
+    font-size: 1.5em;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-style: italic;
+}
+
+@media only screen and (max-width: 600px) {
+    #about-container {
+        width: 60%;
+    }
+
+    #about-container p {
+        font-size: 0.7em;
+    }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 1200px) {
+    #about-container {
+        width: 70%;
+    }
+
+    #about-container p {
+        font-size: 1em;
+    }
+}
